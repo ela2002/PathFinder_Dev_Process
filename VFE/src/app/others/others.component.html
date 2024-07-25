@@ -1,0 +1,58 @@
+<app-ca1></app-ca1>
+<div class="card" [ngStyle]="{'position': 'absolute', 'top': '90px', 'left': '300px'}">
+    
+
+    <div [ngStyle]="{'position': 'absolute', 'top': '40px', 'left': '60px'}">
+    
+<div class="row">
+    <div class="col centered-paragraph"><h4>General</h4></div>
+    <div class="col centered-paragraph"><h4>Address</h4></div>
+    <div class="col centered-paragraph"><h4>Contact</h4></div>
+    <div class="col centered-paragraph"><h2>Others</h2></div>
+    
+</div>
+
+
+
+<div class="row mt-5">
+    <form action="" method="post">
+     
+       
+            <h5 class="centered-paragraph">Can you add some information about your information center?</h5><br>
+            <textarea class="form-control" name="add-info" id="" cols="10" rows="8"></textarea> <br>
+        
+       
+        <div class="progress" >
+                
+            <div class="progress-bar" style="width:100%; background: #FFA318;">
+            <div class="progress-value">100%</div>
+            </div>
+        </div>
+        
+            <router-outlet></router-outlet>
+            <a aria-current="page" routerLink="/services"   class="btn" >Next</a><br>
+
+    </form>
+
+</div>
+
+</div>
+<div class="container">
+    <a aria-current="page" routerLink="/general"  id="b1" class="btnn" >1</a><br>
+    <a aria-current="page" routerLink="/services" class="btnn"id="b2" >2</a><br>
+    <a aria-current="page" routerLink="/account2" class="btnn" id="b3">3</a><br>
+    <a aria-current="page" routerLink="/payment" class="btnn" id="b4">4</a><br>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
